@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Material disponibilizado pelo professor Anderson Macedo -->
     <meta charset="utf-8">
     <title>Produtos</title>
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
@@ -11,12 +10,13 @@
   <body>
     <header>
       <div class="center">
-        <h1 style="text-align: center">Programação Web II - Pedido de compra</h1>
+        <h1 style="text-align: center;">Programação Web II - Pedido de compra</h1>
         <a href="carrinho.php" target="_blank">Carrinho</a>
       </div>
     </header>
     <section id="produtos">
         <div class="center">
+          <!-- Inclui o arquivo de busca de produtos -->
           <?php require_once('controller/produtos-busca.php'); ?>
         </div>
     </section>

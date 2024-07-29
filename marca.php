@@ -16,6 +16,7 @@
         </div>
     </header>
     <section id="produtos">
+        <!--Formulário que envia dados para o arquivo "insere-categoria.php" via método POST-->
         <form action="insere-marca.php" method="post">
           <label for="">Descrição:</label>
           <input type="text" name = "descricao">

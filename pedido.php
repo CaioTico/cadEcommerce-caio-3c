@@ -17,6 +17,7 @@
     <section id="produtos">
         <div class="center">
           <div>
+            <!-- Inclui o arquivo de busca de produtos -->
             <?php require_once('controller/produtos-resumo.php'); ?>
           </div>
         </div>

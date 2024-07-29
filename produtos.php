@@ -1,4 +1,5 @@
 <?php
+    // Inclui o arquivo de conexão com o banco de dados
     include_once ('controller/conexao.php')
 ?>
 
@@ -29,11 +30,15 @@
             <select name="seleciona_categoria" id="">
                 <option value="">Selecione</option>
                 <?php
+                    // Seleciona todas as categorias do banco de dados
                     $resultado_categoria = "SELECT * FROM  categoria";
+                    // Executa a query e armazena o resultado em uma variável
                     $resultcategoria = mysqli_query($mysqli, $resultado_categoria);
+                    // Loop que percorre todas as categorias retornadas
                     while ($row_categorias = mysqli_fetch_assoc($resultcategoria)) {
                 ?>
                 
+                <!-- Cria uma opção para cada categoria -->
                 <option value="<?php echo $row_categorias['IDCATEGORIA'];?>"><?php echo $row_categorias['DESCRICAO']; ?></option>
 
                 <?php            
@@ -45,11 +50,15 @@
             <select name="seleciona_marca" id="">
                 <option value="">Selecione</option>
                 <?php
+                    // Seleciona todas as marcas do banco de dados
                     $resultado_marca = "SELECT * FROM  marca";
+                    // Executa a query e armazena o resultado em uma variável
                     $resultmarca = mysqli_query($mysqli, $resultado_marca);
+                    // Loop que percorre todas as marcas retornadas
                     while ($row_marcas = mysqli_fetch_assoc($resultmarca)) {
                 ?>
                 
+                <!-- Cria uma opção para cada marca -->
                 <option value="<?php echo $row_marcas['IDMARCA'];?>"><?php echo $row_marcas['DESCRICAO']; ?></option>
 
                 <?php            

@@ -11,11 +11,13 @@
     <header>
       <div class="center">
         <h1>Programação Web II - Carrinho</h1>
+        <!-- Link para a página inicial -->
         <a href="index.php">Inicial</a>
       </div>
     </header>
     <section id="produtos">
         <div class="center">
+          <!-- Inclusão do arquivo PHP que busca os produtos -->
           <?php require_once('controller/carrinho-busca.php'); ?>
         </div>
     </section>

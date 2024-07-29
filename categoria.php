@@ -8,6 +8,7 @@
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </head>
+
 <body>
     <header>
         <div class="center">
@@ -16,11 +17,13 @@
         </div>
     </header>
     <section id="produtos">
+        <!--Formulário que envia dados para o arquivo "insere-categoria.php" via método POST-->
         <form action="insere-categoria.php" method="post">
-          <label for="">Descrição:</label>
-          <input type="text" name = "descricao">
-          <input type="submit" value="Cadastrar">
+            <label for="">Descrição:</label>
+            <input type="text" name="descricao">
+            <input type="submit" value="Cadastrar">
         </form>
     </section>
 </body>
+
 </html>
