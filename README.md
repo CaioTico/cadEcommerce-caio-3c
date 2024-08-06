@@ -135,16 +135,16 @@ if ($conn->connect_error) {
 **Exemplo de Uso:** Ao incluir include('controller/conexao.php'); no seu código, você garante que a conexão com o banco de dados seja estabelecida e possa ser utilizada para executar operações como inserções, atualizações, seleções e deleções de dados.
 
 ## Imagens da Aplicação
-Tela Inicial:
-![imagem]()
+**Tela Inicial:**
+![imagem](./img/home.png)
 
-Página de Produtos
-
-Banco de Dados
+**Banco de Dados:**
+![imagem](./img/banco-dados.png)
 
 Referências
-Documentação oficial do PHP: php.net
-Tutorial de MySQL: w3schools.com
+* Documentação oficial do PHP: php.net
+* Tutorial de MySQL: w3schools.com
+* Github.com
 
 ---
 
