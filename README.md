@@ -50,6 +50,7 @@ if ($conn->connect_error) {
 
 * Coloque todos os arquivos do projeto em um servidor web (como Apache).
 * Acesse o projeto pelo navegador: `http://localhost/cadEcommerce`.
+
 ## Estrutura do Projeto
 index.php: Página inicial do e-commerce.
 * `carrinho.php:` Página do carrinho de compras.
@@ -109,7 +110,7 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
 ```
-###Exemplo de Uso:
+### Exemplo de Uso:
 Acesse a página carrinho.php pelo navegador para visualizar os itens no carrinho de compras.
 
 ## php
